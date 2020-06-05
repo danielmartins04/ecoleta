@@ -1,0 +1,17 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": "https://github.com/danielmartins04/nlw.git",
+  "author": "daniel martins <freitasdaniel39@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  }
+}
