@@ -66,14 +66,14 @@ module.exports = db;
 
 
     // Consultar dados de uma tabela
-    db.all(`SELECT * FROM places`, (err, rows) => {
-        if (err) {
-            return console.log(err);
-        }
+    // db.all(`SELECT * FROM places`, (err, rows) => {
+    //     if (err) {
+    //         return console.log(err);
+    //     }
 
-        console.log("Aqui estão seus registros");
-        console.log(rows);
-    })
+    //     console.log("Aqui estão seus registros");
+    //     console.log(rows);
+    // })
 
 
 // });
